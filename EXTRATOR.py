@@ -4,6 +4,7 @@
 #1- Uso de funcões nativas do SQLITE3 para inserção dos dados em massa, como sqlite3.cursor.executemany
 #2- Redução do número de IF e ELIF na execução das operações do MENU
 #3- Criação de uma interface gráfica mais intuitiva.
+#4- Diminuição da redundancia da conexão ao SQLITE3 (sqlite3.connect)
 #Autoria do Script - https://github.com/jorgecarvalhopi
 
 import pyodbc
