@@ -93,7 +93,7 @@ if resposta == 1:
     query ='''
             WITH TABELA2 AS
             (
-            SELECET DISTINCT(TABELA4.NomeColuna) from TABELA4
+            SELECT DISTINCT(TABELA4.NomeColuna) from TABELA4
             )
             
             SELECT * FROM TABELA1
